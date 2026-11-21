@@ -50,7 +50,7 @@ Tailspin Toys 已包含用于探索数据库的画布。使用它了解画布如
 5. 要求 Copilot 根据需要准备本地数据库，并打开现有画布且不做更改：
 
    ```plaintext
-   Set up the local database if needed, then open the repository's Database Explorer canvas. Do not change any files.
+   如果需要，请设置本地数据库，然后打开存储库的 Database Explorer 画布。不要更改任何文件。
    ```
 
 6. 在 Database Explorer 中浏览可用表，并选择 `games`。
@@ -74,9 +74,9 @@ Tailspin Toys 已包含用于探索数据库的画布。使用它了解画布如
 1. 在同一会话中输入 `/create-canvas`，再描述要创建的画布：
 
    ```plaintext
-   Create a Kanban triage canvas for this repo's open issues and save it under .github/extensions/. Highlight the three issues you'd prioritize and explain why, with the rest below. Include summaries and links.
+   为此存储库的未关闭议题创建 Kanban 分类画布，并将其保存在 .github/extensions/ 下。突出显示你认为优先级最高的三个议题并说明原因，其他议题放在下方。请包含摘要和链接。
 
-   Give each card an "Add to current context" action that adds the issue details without starting work or changing the issue. Make it keyboard-accessible and open it so I can try it.
+   为每张卡片添加“Add to current context”操作，将议题详情添加到当前上下文，但不要启动工作或更改议题。确保支持键盘操作，并打开画布供我试用。
    ```
 
 Copilot 会在 `.github/extensions` 下创建画布扩展，并在应用右侧面板中打开共享界面。生成的扩展是可执行的存储库内容，而不只是可视工件，因此接下来需要检查其文件和行为。
